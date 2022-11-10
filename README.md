@@ -1,6 +1,6 @@
 # 1. About the project:
 - Basic solution for Zalo AI Challenge 2022, track "Lyric Alignment": https://challenge.zalo.ai/portal/lyric-alignment
-- Using a pretrained Vietnamese wav2vec model to predict lyric and corresponding time span of each word
+- Using a pretrained Vietnamese wav2vec model to predict lyric and corresponding time span of each word then match with the given lyric words using string similarity
 - Main dependencies:
   - transformers
   - huggingface
